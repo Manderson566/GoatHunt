@@ -7,13 +7,13 @@ namespace GoatHunt.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class AddedDatacsvAgain : IMigrationMetadata
+    public sealed partial class ReADD : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddedDatacsvAgain));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(ReADD));
         
         string IMigrationMetadata.Id
         {
-            get { return "201703050203289_AddedDatacsvAgain"; }
+            get { return "201703050241020_ReADD"; }
         }
         
         string IMigrationMetadata.Source

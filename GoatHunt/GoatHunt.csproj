@@ -157,14 +157,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201702280614520_Initial.resx">
-      <DependentUpon>201702280614520_Initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201703050203289_AddedDatacsvAgain.resx">
-      <DependentUpon>201703050203289_AddedDatacsvAgain.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -203,16 +195,21 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201702280614520_Initial.cs" />
-    <Compile Include="Migrations\201702280614520_Initial.Designer.cs">
-      <DependentUpon>201702280614520_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201703050224227_Initial.cs" />
+    <Compile Include="Migrations\201703050224227_Initial.Designer.cs">
+      <DependentUpon>201703050224227_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201703050203289_AddedDatacsvAgain.cs" />
-    <Compile Include="Migrations\201703050203289_AddedDatacsvAgain.Designer.cs">
-      <DependentUpon>201703050203289_AddedDatacsvAgain.cs</DependentUpon>
+    <Compile Include="Migrations\201703050232504_ReAddingData.cs" />
+    <Compile Include="Migrations\201703050232504_ReAddingData.Designer.cs">
+      <DependentUpon>201703050232504_ReAddingData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703050241020_ReADD.cs" />
+    <Compile Include="Migrations\201703050241020_ReADD.Designer.cs">
+      <DependentUpon>201703050241020_ReADD.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Harvest.cs" />
+    <Compile Include="Models\ApplicationContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -277,6 +274,17 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201703050224227_Initial.resx">
+      <DependentUpon>201703050224227_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703050232504_ReAddingData.resx">
+      <DependentUpon>201703050232504_ReAddingData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703050241020_ReADD.resx">
+      <DependentUpon>201703050241020_ReADD.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
@@ -17,9 +16,5 @@ namespace GoatHunt.Models
         public string harvest { get; set; }
         public string average_days { get; set; }
         public string success { get; set; }
-    }
-    public class ApplicationContext : DbContext
-    {
-        public DbSet<Harvest> Harvests { get; set; }
     }
 }
