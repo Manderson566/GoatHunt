@@ -160,6 +160,9 @@
     <EmbeddedResource Include="Migrations\201702280614520_Initial.resx">
       <DependentUpon>201702280614520_Initial.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703050203289_AddedDatacsvAgain.resx">
+      <DependentUpon>201703050203289_AddedDatacsvAgain.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -203,6 +206,10 @@
     <Compile Include="Migrations\201702280614520_Initial.cs" />
     <Compile Include="Migrations\201702280614520_Initial.Designer.cs">
       <DependentUpon>201702280614520_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703050203289_AddedDatacsvAgain.cs" />
+    <Compile Include="Migrations\201703050203289_AddedDatacsvAgain.Designer.cs">
+      <DependentUpon>201703050203289_AddedDatacsvAgain.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Harvest.cs" />
